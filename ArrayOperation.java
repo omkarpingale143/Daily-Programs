@@ -29,7 +29,7 @@ public class ArrayOperation
 		}
 		System.out.println();
 	}
-	public static void greatest(int arr[]) 
+	public static void greatestnumbar(int arr[]) 
 	{
 		int i,max=arr[0];
 		for(i=0;i<arr.length;i++)
@@ -40,7 +40,7 @@ public class ArrayOperation
 		}
 		System.out.println("The Gretest Number Is : "+max);
 	}
-	public static void smallest(int arr[]) 
+	public static void smallestnumber(int arr[]) 
 	{
 		int i,min=arr[0];
 		for(i=0;i<arr.length;i++)
@@ -52,7 +52,7 @@ public class ArrayOperation
 		}
 		System.out.println("The Smallest Number Is : "+min);
 	}
-	public static void ascending(int arr[]) 
+	public static void ascendingorder(int arr[]) 
 	{
 		int i,temp;
 		for(i=0;i<arr.length-1;i++)
@@ -67,7 +67,7 @@ public class ArrayOperation
 		System.out.println(" The Numbers In Ascending order");
 		display(arr);
 	}
-	public static void descending(int arr[])
+	public static void descendingorder(int arr[])
 	{
 		int i,temp;
 		for(i=0;i<arr.length-1;i++) 
@@ -79,7 +79,7 @@ public class ArrayOperation
 			 arr[i+1]=temp;
 		 }
 		}
-		System.out.println("The Numbers IN Descending order");
+		System.out.println("The Numbers In Descending order");
 		display(arr);
 	}
 }
